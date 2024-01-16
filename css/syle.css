@@ -261,6 +261,7 @@ header{
     flex-wrap: wrap;
     gap: 20px;
     justify-content:center;
+    margin-bottom: 60px;
 }
 .hotel{
     border: 1px solid transparent;
@@ -285,4 +286,43 @@ header{
         align-items: center;
         line-height: 30px;
         background-color:rgba(233, 68, 68, 0.05);
+}
+/* why end */
+/* gallry start */
+.gallary{
+    text-align: center;
+    margin-bottom: 1000px;
+}
+.gallry_img img{
+    width:100%;
+}
+.gallry_img{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+     gap: 15px;
+}
+.gallry_img div{
+    width: 100%;
+}
+/* gallry end */
+/* newsletter start */
+
+.news{
+    display: flex;
+    gap: 30px;
+    margin-top: 80px;
+}
+.news_left{
+    border: 1px solid #FF5400;
+    width: 40%;
+    line-height: 30px;
+    gap: 20px;
+}
+.news_left input{
+    padding:10px 60px;
+    margin: 10px 10px;
+    border: transparent;
+    outline: none;
+    background: rgba(19, 19, 24, 0.05);
+    border-radius:5px;
 }

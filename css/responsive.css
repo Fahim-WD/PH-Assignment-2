@@ -12,7 +12,6 @@
     }
     .banner{
         text-align: center;
-        padding:  auto;
     }
     .banner_text{
         text-align: center;
@@ -22,6 +21,17 @@
      flex-direction: column;
     }
     .about img{
+        width: 100%;
+    }
+    /* news */
+    .news{
+        flex-direction: column;
+    }
+    .newsleft{
+        width: 100%;
+    }
+    .gallry_img{
+        grid-template-columns:1fr;
         width: 100%;
     }
 }
