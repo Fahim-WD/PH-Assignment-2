@@ -79,7 +79,7 @@ header{
 .about_text li {
     line-height:50px;
 }
-.about_text a{
+.button a{
     border: transparent;
     border-radius: 5px;
     background-color: #FF5400;
@@ -305,6 +305,35 @@ header{
     width: 100%;
 }
 /* gallry end */
+/* optional start */
+.optional{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.optional_left{
+    line-height: 30px;
+}
+.optional_left h1{
+    font-weight:800;
+    margin-bottom:20px;
+}
+.optional_left p{
+    color:#5A5A5D;
+    line-height: 30px;
+}
+.optional_left li{
+    line-height: 30px;
+    font-weight: 800;
+    padding: 10px;
+}
+.optional_left .button{
+    margin-top: 15px;
+}
+.optional_right video{
+    width:400px;
+    height:400px;
+}
 /* newsletter start */
 
 .news{
@@ -325,4 +354,26 @@ header{
     outline: none;
     background: rgba(19, 19, 24, 0.05);
     border-radius:5px;
+}
+/* footer start */
+footer{
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer_content{
+    text-align: center;
+}
+.footer_text h2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.footer_content span{
+    color: #FF5400;
+}
+.footer_logo{
+    display: flex;
+    gap:20px;
 }
