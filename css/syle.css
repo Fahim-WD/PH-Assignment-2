@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Mulish', sans-serif;
+}
+.container{
+        width: 1440px;
+        margin:auto;
+        
+}
+/* header start */
+header{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    gap:20px;
+}
+.logo span{
+    color: #FF5400;;
+}
+.nav ul{
+    display: flex;
+    
+}
+.nav a{
+    text-decoration: none;
+    color:#424247;
+    display: flex;
+}
+.nav li{
+    list-style: none;
+    padding-right:44px;
+}
+.nav a:hover{
+    color: #FF5400;
+}
+/* header end */
+
+/* banner start */
+.banner{
+    margin-top:80px;
+    background:linear-gradient(180deg, rgba(19, 19, 24, 0.8 )0%, 
+    rgba(19, 19, 24, 0) 100%),url(../Images/Banner.png);
+    
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+    border-radius: 10px;
+}
+.banner_text{
+    line-height: 100px;
+}
+.banner_text h1{
+    color: #fff;
+    font-size:64px;
+    font-weight: 800;
+}
+.banner_text p{
+    color: #fff;
+    line-height:30px;
+}
+/* banner end  */
+
+/* about start */
+.about{
+    margin-top:80px;
+    display: flex;
+}
+.about_text p{
+    line-height:30px; 
+    margin: 30px 0;
+}
+.about_text li {
+    line-height:50px;
+}
+.about_text a{
+    border: transparent;
+    border-radius: 5px;
+    background-color: #FF5400;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+/* about end */
+ 
+/* place start */
+.place_text{
+    text-align: center;
+    margin-top: 80px;
+}
+.place_text h1{
+    color: #131318;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.place_text p{
+    line-height: 30px;
+    color: rgba(19, 19, 24, 0.70);
+}
+.img_text h3{
+    color:#c81515;
+}
+.place_img{
+    display: block;
+    position: relative;
+}
+.img_text{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+/* .place_img{
+    background: url(../Images/Maldives.png);
+    background-position:fixed;
+    background-size:40%;
+    padding: 120px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border:1px solid green;
+}
+/* .place_img{
+    border-radius: 16px;
+    background: linear-gradient(rgba(19, 19, 24, 0.20) , rgba(19, 19, 24, 0.20)), url(../Images/Maldives.png) ;
+    padding: 150px;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: auto;
+
+} */
+
+
+/* ============================================== */
+/* place end */
+
+/* why start */
+.why_head h1{
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom:20px;
+    font-size: 40px;
+}
+.why_head p{
+    text-align: center;
+    margin-bottom:30px;
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 30px;
+}

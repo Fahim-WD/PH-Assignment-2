@@ -1,0 +1,17 @@
+/* mobile device */
+@media screen  and (max-width:600px) {
+    .banner{
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner_text{
+        text-align: center;
+    }
+    .about{
+        display: grid;
+     flex-direction: column;
+    }
+    .about img{
+        width: 100%;
+    }
+}
