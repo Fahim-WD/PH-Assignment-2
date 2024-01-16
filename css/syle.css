@@ -103,19 +103,114 @@ header{
     line-height: 30px;
     color: rgba(19, 19, 24, 0.70);
 }
-.img_text h3{
-    color:#c81515;
-}
+
 .place_img{
-    display: block;
     position: relative;
-}
-.img_text{
-   
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 300px 246px 300px;
 }
 .place_img .maldives{
     background: url(../Images/Maldives.png);
-    grid-column: 1/span6;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px;
+    position: relative;
+    grid-column: 1/span 6;
+    border: 2px solid red;
+}
+.img_text h1{
+      color: #fff;
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      font-weight: 800;    
+}
+.place_img .indonasia{
+    background: url(../Images/Indonesia.png);
+    background-size:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px;
+    position: relative;
+    grid-column: 1/span 6;
+}
+.img_text h1{
+      color: #fff;
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      font-weight: 800;    
+}
+.place_img .srilanka{
+    background: url(../Images/Srilanka.png);
+    background-size:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px;
+    position: relative;
+}
+.img_text h1{
+      color: #fff;
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      font-weight: 800;    
+}
+.place_img .north-america{
+    background: url(../Images/NorthAmerica.png);
+    background-size:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px;
+    position: relative;
+}
+.img_text h1{
+      color: #fff;
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      font-weight: 800;    
+}
+.place_img .kasmir{
+    background: url(../Images/Kashmir.png);
+    background-size:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px;
+    position: relative;
+}
+.img_text h1{
+      color: #fff;
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      font-weight: 800;    
+}
+.place_img .bangladesh{
+    background: url(../Images/Bangladesh.png);
+    background-size:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px;
+    position: relative;
+}
+.img_text h1{
+      color: #fff;
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      font-weight: 800;    
+}
+.place_img .bandorban{
+    background: url(../Images/Bandarban.png);
     background-size:40%;
     background-position: center;
     background-repeat: no-repeat;
@@ -127,9 +222,24 @@ header{
       position: absolute;
       top:50%;
       left:50%;
-      transform: translate(50%,50%);
-      font-weight: 800;
-      
+      transform: translate(-50%,-50%);
+      font-weight: 800;    
+}
+.place_img .maldives{
+    background: url(../Images/Maldives.png);
+    background-size:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px;
+    position: relative;
+}
+.img_text h1{
+      color: #fff;
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      font-weight: 800;    
 }
 /* place end */
 
@@ -145,4 +255,34 @@ header{
     margin-bottom:30px;
     color: rgba(19, 19, 24, 0.70);
     line-height: 30px;
+}
+.why{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:center;
+}
+.hotel{
+    border: 1px solid transparent;
+    width:500px;
+    padding: 20px;
+    align-items: center;
+    line-height: 30px;
+    background-color:rgba(251, 181, 99, 0.05);
+}
+.service{
+    border: 1px solid transparent;
+    width:573px;
+    padding: 20px;
+    align-items: center;
+    line-height: 30px;
+    background-color:rgba(41, 206, 246, 0.05);
+}
+.price{
+        border: 1px solid transparent;
+        width:573px;
+        padding: 20px;
+        align-items: center;
+        line-height: 30px;
+        background-color:rgba(233, 68, 68, 0.05);
 }
