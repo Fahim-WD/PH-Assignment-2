@@ -348,10 +348,11 @@ header{
     display: flex;
     gap: 30px;
     margin-top: 80px;
+    justify-content: space-between;
 }
 .news_left{
     border: 1px solid #FF5400;
-    width: 40%;
+    width: 30%;
     line-height: 30px;
     gap: 20px;
 }
@@ -360,6 +361,36 @@ header{
 }
 .news_left p{
     margin: 15px;
+}
+.news_right{
+    background-image: url(../Images/footer.png);
+     width: 50%;
+     background-size: cover;
+     background-repeat: no-repeat;
+     position: relative;
+}
+.card{
+    position: absolute;
+    right: 0;
+    top: 70%;
+    transform: rotate(-20deg);
+}
+.card a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF5400;
+    padding: 40px 70px;
+    border-radius:10px;
+    
+}
+.card_text{
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+.news_right.card{
+    position: absolute;
+
 }
 .news_left input{
     padding:10px 60px;

@@ -62,9 +62,16 @@
     /* news */
     .news{
         flex-direction: column;
+        width: 100%;
+      
     }
     .newsleft{
         width: 100%;
+        border:0px solid white;
+        
+    }
+    .news_right{
+        padding: 150px;
     }
     .gallry_img{
         grid-template-columns:1fr;
