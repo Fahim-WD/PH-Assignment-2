@@ -47,7 +47,7 @@ header{
     margin-top:80px;
     background:linear-gradient(180deg, rgba(19, 19, 24, 0.8 )0%, 
     rgba(19, 19, 24, 0) 100%),url(../Images/Banner.png);
-    padding: 150px;
+    padding: 100px;
     background-repeat: no-repeat;
     background-size:cover;
     text-align: center;
@@ -64,6 +64,23 @@ header{
 .banner_text p{
     color: #fff;
     line-height:30px;
+}
+.banner_input input{
+    padding: 15px 20px;
+    margin: 0 15px;
+}
+.banner_btn a{
+        background-color: #FF5400;
+        padding: 15px 50px;
+        text-decoration: none;
+        color: #fff;
+          
+}
+.banner_input{
+    display: inline block;
+    display: flex;
+    margin-top: 30px;
+
 }
 /* banner end  */
 
@@ -109,6 +126,7 @@ header{
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: 300px 246px 300px;
+    gap: 20px;
 }
 .place_img .maldives{
     background: url(../Images/Maldives.png);
@@ -118,7 +136,6 @@ header{
     padding: 150px;
     position: relative;
     grid-column: 1/span 6;
-    border: 2px solid red;
 }
 .img_text h1{
       color: #fff;
@@ -135,7 +152,7 @@ header{
     background-repeat: no-repeat;
     padding: 150px;
     position: relative;
-    grid-column: 1/span 6;
+    grid-column: 7/span 6;
 }
 .img_text h1{
       color: #fff;
@@ -147,11 +164,12 @@ header{
 }
 .place_img .srilanka{
     background: url(../Images/Srilanka.png);
-    background-size:100%;
+    background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 150px;
+    padding: 100px;
     position: relative;
+    grid-column: 1/span 4;
 }
 .img_text h1{
       color: #fff;
@@ -163,11 +181,12 @@ header{
 }
 .place_img .north-america{
     background: url(../Images/NorthAmerica.png);
-    background-size:100%;
+    background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 150px;
+    padding: 120px;
     position: relative;
+    grid-column: 5/span 5;
 }
 .img_text h1{
       color: #fff;
@@ -182,8 +201,9 @@ header{
     background-size:100%;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 150px;
+    padding: 130px;
     position: relative;
+    grid-column: 10/span 3;
 }
 .img_text h1{
       color: #fff;
@@ -195,11 +215,12 @@ header{
 }
 .place_img .bangladesh{
     background: url(../Images/Bangladesh.png);
-    background-size:100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 150px;
-    position: relative;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    padding:150px;
+    position:relative;
+    grid-column:1/span 5;
 }
 .img_text h1{
       color: #fff;
@@ -211,11 +232,13 @@ header{
 }
 .place_img .bandorban{
     background: url(../Images/Bandarban.png);
-    background-size:40%;
+    background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 150px;
     position: relative;
+    grid-column:0/span 5;
+    width:100%;
 }
 .img_text h1{
       color: #fff;
@@ -225,22 +248,7 @@ header{
       transform: translate(-50%,-50%);
       font-weight: 800;    
 }
-.place_img .maldives{
-    background: url(../Images/Maldives.png);
-    background-size:100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 150px;
-    position: relative;
-}
-.img_text h1{
-      color: #fff;
-      position: absolute;
-      top:50%;
-      left:50%;
-      transform: translate(-50%,-50%);
-      font-weight: 800;    
-}
+
 /* place end */
 
 /* why start */
@@ -347,13 +355,28 @@ header{
     line-height: 30px;
     gap: 20px;
 }
+.news_left h1{
+    margin: 15px;
+}
+.news_left p{
+    margin: 15px;
+}
 .news_left input{
     padding:10px 60px;
-    margin: 10px 10px;
+    margin: 15px 10px;
     border: transparent;
     outline: none;
     background: rgba(19, 19, 24, 0.05);
     border-radius:5px;
+}
+.footer_btn a{
+    background-color: #FF5400;
+    padding: 10px 80px;
+    text-decoration: none;
+    color: #fff;
+}
+.footer_btn{
+    margin: 25px;
 }
 /* footer start */
 footer{
@@ -376,4 +399,16 @@ footer{
 .footer_logo{
     display: flex;
     gap:20px;
+    margin: 20px 780px;
+
+}
+.footer_icon{
+    padding:30px;
+}
+.footer_icon i{
+    padding: 10px;
+    font-size: 20px;
+}
+.footer_icon hr{
+    margin: 15px ;
 }
